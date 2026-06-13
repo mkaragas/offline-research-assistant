@@ -1,0 +1,6 @@
+# Offline ZIM + PDF Research — Python dependencies
+libzim>=3.4.0        # read ZIM files (Wikipedia, etc.) — NOT zipfile
+pypdf>=4.0.0         # extract text from PDF files
+numpy>=1.24.0        # fast cosine search over the PDF embedding index
+ollama>=0.3.0        # local LLM + embeddings client (talks to your Ollama install)
+streamlit>=1.30.0    # optional: the web UI in app.py

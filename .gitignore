@@ -1,0 +1,17 @@
+# Caches built at runtime (safe to delete; rebuilt on demand)
+.pdf_index.pkl
+.zim_embed_cache.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
